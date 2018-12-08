@@ -1,0 +1,19 @@
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(https://lh3.googleusercontent.com/-Uwd8Cr-7C5g/WdIaWHqBnWI/AAAAAAAANmc/Mdv_tZIIRnIOR_zvAJJ0VuztB1Q9k50bwCHMYCw/s1600/whatsapp.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: rgb(226, 231, 218);
+    text-shadow: rgb(139, 155, 94) 0.3em 0.3em 0.3em;
+}
+
+body {
+    background-color: lavender;
+}
+
+#salutation{
+    text-align: center;
+    text-emphasis-color: rgb(107, 116, 94);
+}

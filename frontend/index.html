@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="index.css">
+        <script src="jquery-3.2.1.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <br><br>
+        <div class="container">
+            <div class="jumbotron">
+                    <h1>WebChat App using Socket.io </h1>
+            </div>
+                <div class="container" style="width: 50%; margin: 25px auto;">
+                    <div id="login-div">
+                        <br>
+                        <input placeholder="username" type="text" id="loginbox" class="form-control">
+                        <br>
+                        <button id="loginbtn" class="btn btn-lg btn-outline-success btn-block">LOGIN</button>
+                    </div>
+                    <br>
+                    <div id='salutation'></div>
+                    <br>
+                    <div id="chat-div" style="display: none">
+                        <textarea placeholder="new message" type="text" id="msgbox" rows="5" cols="50" class="form-control" ></textarea>
+                        <br>
+                        <button id="sendmsg" class="btn btn-lg btn-outline-success btn-block" class="form-control" >Send Message</button>
+                        <br>
+                        <div class="container card">
+                                <div id="msglist"></div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </body>
+</html>
